@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dummy Header"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Price"
+        android:textAlignment="center"
+        android:textColor="#BD1212"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="400dp"
+        android:layout_height="473dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Description"
+        android:textColor="#091B75"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>
